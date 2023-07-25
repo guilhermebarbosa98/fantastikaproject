@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Roboto Serif', serif;
+    
+}
+
+.cabecalho1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho1 p{
+color: white;
+font-size: 16px;
+display: flex;
+justify-content: space-around;
+width: 6vw;
+}
+
+.cabecalho1 img{
+    height: 5vh;
+}
+
+.cabecalho2 ul{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.primeiraSessao{
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/cachorro1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-position: center;
+    height: 100vh;
+    width: 98,5vw;
+    flex-direction: column;
+}
+
+.primeiraSessao img{
+    width: 8vw;
+    margin-top: 60px;
+}
+
+.info-primeiraSessao{
+ text-align: center;
+ font-family:'Roboto Serif', serif;
+ color: white;
+ font-size: 40px;
+ padding-top: 110px;
+}
+
+.imagem-primeiraSessao{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.segundaSessao{
+    background-color: #F4F2F3;
+    display: flex;
+    height: 100vh;
+    width: 98,5vw;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 90px;
+    justify-content: center;
+    background-image: url(assets/cachorro2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%;
+
+}
+
+.segundaSessao p{
+  color: #3A342F ;  
+  font-size: 30px;
+  margin: 5px;
+}
+
+
+h2 {
+font-weight: 950;
+font-size: 70px;
+font-family: 'Roboto Serif', serif;
+letter-spacing: 0px;
+color: #3A342F;
+opacity: 1;
+display: flex;
+align-items: flex-start;
+padding-bottom: 40px;
+}
+
+.segundaSessao button{
+ height: 10vh;
+ width: 13vw;
+ margin-top: 40px;
+ background-color:#252525 ;
+ color:#F4F2F3;
+ font-size: 22px;
+ font-weight: 700;
+ border-radius: 30px;
+ cursor: pointer;
+ }
+
+ .terceiraSessao{
+    flex-direction: column;
+    height: 170vh;
+    width: 98,5vw;
+    display: flex;
+    align-items: end;
+    padding-right: 300px;
+    padding-top: 200px;
+    background-color: #EB4A7B;
+    margin-bottom: 80px;
+    background-image: url(assets/cachorro3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+ }
+
+h3, h3{
+    color: #FFFFFF;
+    font-size: 70px;
+    display: flex;
+    align-items: flex-end;
+    width: 24vw;
+    font-family: 'Roboto Serif', serif; 
+}
+
+.terceiraSessao p{
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+    font: normal normal normal Roboto;
+    width: 24vw;
+    margin: 5px;
+}
+
+.terceiraSessao button{
+ color: black;
+ background-color: white;
+ height: 10vh;
+ width: 13vw;
+ margin-top: 40px;
+ font-size: 22px;
+ font-weight: 700;
+ border-radius: 36px;
+ cursor: pointer;
+ border: none;
+ margin-right: 190px;
+}
+
+.quartaSessao{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 96vw;
+    justify-content: space-evenly;
+}
+
+.quartaSessao p{
+    color: #FD6A9A;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-bottom: 60px;
+    margin-left: 200px;
+    
+}
+
+.imagens-quartaSessao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    height: 20vh;
+    margin-bottom: 60px;
+    margin-right: 500px;
+}
+
+footer{
+    display: flex;
+    height: 40vh;
+    background-color: #EB4A7B;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 400px;
+    
+}
+
+footer p{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Roboto Serif', serif;
+    margin-bottom: 30px;
+}
+
+footer ul{
+    list-style: none;
+    color: #FFFFFF;
+}
+
+footer li{
+    margin: 10px; 
+}
+
+
+@media (max-width:500px){
+
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cabecalho1{
+        display: flex;
+        justify-content: space-between;
+        width: 26vw;
+    }
+    .itemWeb {
+        display: none;
+      }
+    
+      .mobile {
+        display: flex;
+      }
+
+      .primeiraSessao{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        background-size: cover;
+        background-position: center;
+        
+      }
+
+      .info-primeiraSessao{
+        flex-direction: column;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+      }
+
+      .pata{
+        margin-bottom: 450px;
+        width: 1500vw;
+        height: 20vh;
+    }
+
+    .segundaSessao{
+        flex-direction: column;
+        background-position: bottom;
+        display: flex;
+        justify-content: center;
+    }
+
+}
